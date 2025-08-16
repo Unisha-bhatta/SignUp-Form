@@ -27,3 +27,30 @@ input{
 input.error-border{
     border-color:rgba(255, 0, 0, 0.212) ;
 }
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+small.error{
+    color: rgba(255, 0, 0, 0.212);
+    font-size: 12px;
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #0056b3;
+}
