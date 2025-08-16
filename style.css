@@ -4,3 +4,26 @@ body{
     padding: 20px;
 }
 
+form{
+    background: white;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.form-control{
+    margin-bottom: 15px;
+    position: relative;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input.error-border{
+    border-color:rgba(255, 0, 0, 0.212) ;
+}
